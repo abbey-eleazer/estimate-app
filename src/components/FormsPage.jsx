@@ -1,5 +1,5 @@
 import Logo from "../assets/logo.jpeg";
-const FormsPage = () => {
+const formsPage = () => {
   return (
     <>
       <div className="container mx-auto max-md p-4">
@@ -119,4 +119,4 @@ const FormsPage = () => {
   );
 };
 
-export default FormsPage;
+export default formsPage;
