@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+.input_field {
+  @apply w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent;
+}
+.input_container {
+  @apply flex flex-col gap-5;
+}
+
+.form_container {
+  @apply bg-white p-6 rounded-lg shadow-md mb-4;
+}
+.btn {
+  @apply w-full mt-2 bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600;
+}
+.heading {
+  @apply text-3xl text-center font-bold mb-6;
+}
+.heading_secondary {
+  @apply text-2xl text-center font-semibold mb-4;
+}
+.footer {
+  @apply text-center mt-8 text-gray-600;
+}
+.logo {
+  @apply w-30 h-auto mb-4;
+}
+.icon {
+  @apply w-6 h-6;
+}
