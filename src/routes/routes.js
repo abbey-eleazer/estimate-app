@@ -1,7 +1,7 @@
 // Routing
 import { createBrowserRouter } from "react-router-dom";
 
-import FormsPage from "../components/formsPage";
+import FormsPage from "./components/FormsPage";
 import DisplayPage from "../components/DisplayPage";
 
 export const router = createBrowserRouter([
