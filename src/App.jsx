@@ -4,7 +4,7 @@ import {
   createRoutesFromElements,
   RouterProvider,
 } from "react-router-dom";
-import FormsPage from "./components/FormsPage";
+import FormsPage from "./components/FormsPage.jsx";
 import DisplayPage from "./components/DisplayPage";
 
 const router = createBrowserRouter(

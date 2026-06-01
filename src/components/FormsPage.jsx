@@ -7,7 +7,7 @@ const formsPage = () => {
           <img src={Logo} alt="logo" className="logo mx-auto" />
           <h1 className="heading">ESTIMATE / INVOICE</h1>
         </div>
-        <a href="http://localhost:5173/display">display</a>
+        <a href="/display">display</a>
         <form action="" className="form_container">
           <h3 className="heading_secondary">Client Information</h3>
           <div className="input_container">
